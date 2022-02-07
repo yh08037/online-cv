@@ -51,7 +51,7 @@ education:
 experiences:      
     - role: Undergraduate Student Researcher 
       time: Jul.2020 - Jan.2022
-      company: Mobile Communication Lab in KNU, Prof. Hoshin Cho
+      company: Mobile Communication Lab in KNU, Prof. Ho-Shin Cho
       details: |
       
 projects:
@@ -63,28 +63,24 @@ projects:
         
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesl
+      - title: Development of Medium Access Protocol Simulator for Underwater Acoustic Cellular Networks
+#         link: "#"
+        authors: <strong>Dohun Kim</strong>, Seokhun Kim, Yoon Kwon and Ho-Shin Cho
+        conference: KICS Fall Conference 2021
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
       - name: Python & Jupyter Notebook
-        level: 98%
+        level: 85%
         
       - name: C & C++
-        level: 98%
+        level: 90%
       
       - name: Tensorflow & pyTorch
-        level: 98%
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
