@@ -61,27 +61,14 @@ education:
       
 experiences:      
     - role: Undergraduate Student Researcher 
-      time: Jul.2020 - Jan.2022
+      time: Aug.2020 - Jan.2022
       company: Mobile Communication Lab. in KNU, Prof. Ho-Shin Cho
-      details: |
-          - Designed a Medium Access Control(MAC) protocol for underwater acoustic sensor network
-          - Implemented a full MAC layer and GUI network simulator using C++ and python
-          - Cooperated with Hoseo University and Korea Electronics Technology Institute, KETI
-
-projects:
-    title: Projects
+      details: 
     
-    assignments:
-      - title: Development of Distributed Underwater Monitoring and Control Networks
-        tagline: "Korea Institute of Marine Science & Technology Promotion (KIMST), Aug.2020 - Jan.2022"
-        
-publications:
-    title: Publications
-    papers:
-      - title: Development of Medium Access Protocol Simulator for Underwater Acoustic Cellular Networks
-#         link: "#"
-        authors: <strong>Dohun Kim</strong>, Seokhun Kim, Yoon Kwon and Ho-Shin Cho
-        conference: KICS Fall Conference 2021
+    - role: Undergraduate Trainee
+      time: Mar.2019 - Jul.2020
+      company: Artificial Brain Research Lab. in KNU, Prof. Minho Lee
+      details: 
 
 awards:
     title: Awards
@@ -93,6 +80,25 @@ awards:
       - title: Community choice award in Qiskit Hackathon Korea 2021, 2021
         authors: Team Quanputing - Jaehoon Hahm, <strong>Dohun Kim</strong>, Yunseo Kim, Daeheon Yoon, Eunchan Lee, Yoon Kwon
         conference: Organized by IBM Quantum
+
+projects:
+    title: Projects
+    
+    assignments:
+      - title: Development of Distributed Underwater Monitoring and Control Networks
+        tagline: "Korea Institute of Marine Science & Technology Promotion (KIMST), Aug.2020 - Jan.2022"
+        details: |
+          - Designed a Medium Access Control(MAC) protocol for underwater acoustic sensor network
+          - Implemented a full MAC layer and GUI network simulator using C++ and python
+          - Cooperated with Hoseo University and Korea Electronics Technology Institute, KETI
+        
+publications:
+    title: Publications
+    papers:
+      - title: Development of Medium Access Protocol Simulator for Underwater Acoustic Cellular Networks
+#         link: "#"
+        authors: <strong>Dohun Kim</strong>, Seokhun Kim, Yoon Kwon and Ho-Shin Cho
+        conference: KICS Fall Conference 2021
         
 skills:
     title: Skills &amp; Proficiency
