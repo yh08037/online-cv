@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -12,9 +12,17 @@ sidebar:
     avatar: dohunkim_profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: dohunkim.ee@gmail.com
+    email: dohunkim@postech.ac.kr
+    phone:
     website: dohunkim.tistory.com #do not add http://
+    linkedin:
     github: yh08037
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
     
     languages:
       - idiom: Korean
@@ -33,6 +41,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
+      <strong>Dohun Kim</strong> received the B.S. degree in Electronics Engineering (Major) 
+      and Computer Science and Engineering (Minor)
+      from Kyungpook National University, Daegu, Republic of Korea, in 2022.
       Dohun Kim is currently a Master student in the Department of Electrical Engineering, 
       Pohang University of Science and Technology (POSTECH), Korea.
       He is working with Prof. Seokhyeong Kang in [CAD & SoC Design Lab.](http://csdl.postech.ac.kr) (CSDL)
@@ -56,13 +67,13 @@ experiences:
           - Designed a Medium Access Control(MAC) protocol for underwater acoustic sensor network
           - Implemented a full MAC layer and GUI network simulator using C++ and python
           - Cooperated with Hoseo University and Korea Electronics Technology Institute, KETI
-      
+
 projects:
     title: Projects
     
     assignments:
       - title: Development of Distributed Underwater Monitoring and Control Networks
-        tagline: "KIMST, Aug.2020 - Jan.2022"
+        tagline: "Korea Institute of Marine Science & Technology Promotion (KIMST), Aug.2020 - Jan.2022"
         
 publications:
     title: Publications
@@ -72,6 +83,17 @@ publications:
         authors: <strong>Dohun Kim</strong>, Seokhun Kim, Yoon Kwon and Ho-Shin Cho
         conference: KICS Fall Conference 2021
 
+awards:
+    title: Awards
+    papers:
+      - title: First place in 2021 MathWorks Korea MATLAB Cody Challenge, 2021
+        authors: First Finisher & Top Scorer
+        conference: Organized by MathWorks Korea
+      
+      - title: Community choice award in Qiskit Hackathon Korea 2021, 2021
+        authors: Team Quanputing - Jaehoon Hahm, <strong>Dohun Kim</strong>, Yunseo Kim, Daeheon Yoon, Eunchan Lee, Yoon Kwon
+        conference: Organized by IBM Quantum
+        
 skills:
     title: Skills &amp; Proficiency
 
