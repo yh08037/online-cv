@@ -1,30 +1,28 @@
-{% assign skills = site.data.data.skills %}
-{% if skills %}
+{% assign journals = site.data.data.journals %}
+{% if journals %}
 <section class="section publications-section">
 
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-book-open fa-stack-1x fa-inverse"></i>
     </span>
-    {{ skills.title }}
+    {{ journals.title }}
   </h2>
 
-  {% if skills.intro %}
+  {% if journals.intro %}
   <div class="intro">
-    {{ skills.intro | markdownify }}
+    {{ journals.intro | markdownify }}
   </div><!--//intro-->
   {% endif %}
-  
   <ol>
-  {% for publication in skills.papers %}
+  {% for publication in journals.papers %}
   <div class="item">
-      <div class="publication-title">{{ publication.title }}</div>
+  <li><div class="publication-title">{{ publication.title }}</div>
       <div class="publication-authors">{{ publication.authors }}</div>
       <div class="publication-conference">{{ publication.conference }}</div>
   </div><!--//item-->
   {% endfor %}
-  </ol>  
-
+  </ol>
 </section><!--//section-->
 {% endif %}
