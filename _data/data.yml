@@ -32,10 +32,7 @@ sidebar:
         level: Elementary
 
     interests:
-      - item: Quantum Computing
-        link:
-
-      - item: Deep Learning Hardware
+      - item: Design Automation in Quantum Computing
         link:
 
 career-profile:
@@ -47,6 +44,7 @@ career-profile:
       Dohun Kim is currently a Master student in the Department of Electrical Engineering, 
       Pohang University of Science and Technology (POSTECH), Korea.
       He is working with Prof. Seokhyeong Kang in [CAD & SoC Design Lab.](http://csdl.postech.ac.kr) (CSDL)
+      His current research interests include design automation in Quantum Computing.
 
 education:
     - degree: M.Sc in Electrical Engineering
